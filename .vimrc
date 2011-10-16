@@ -17,6 +17,9 @@ set t_Co=256
 
 set novisualbell
 
+" Switch on / switch off toggle mode
+set pastetoggle=<F7>
+
 " Always keep few lines of context around the cursor
 set scrolloff=5
 
@@ -48,6 +51,9 @@ set listchars=eol:↲,tab:▸·,nbsp:↔
 
 " Realtime search
 set incsearch
+
+" Higlight search results
+set hlsearch
 
 " Insert a new-line after the current line by pressing Enter
 map <CR> o<Esc>
