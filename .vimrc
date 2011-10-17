@@ -17,6 +17,9 @@ set t_Co=256
 
 set novisualbell
 
+set foldenable
+set foldmethod=indent
+
 " Switch on / switch off toggle mode
 set pastetoggle=<F7>
 
